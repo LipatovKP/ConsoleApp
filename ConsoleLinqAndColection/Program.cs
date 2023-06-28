@@ -80,6 +80,8 @@ namespace ConsoleLinqAndCollection
 
             Console.WriteLine(products.All(item => item.Energy == 10));
             Console.WriteLine(products.Any(item => item.Energy == 10));
+            Console.WriteLine(products.Contains(products[5]));
+
 
             Console.ReadLine();
 
